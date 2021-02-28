@@ -38,9 +38,11 @@ a:hover {
 .submenu {
   display: none;
   position: absolute;
-  top: 0;
-  /*left: 100%;*/
+  z-index: 1;
 }
-.navItemCont > .submenu {
+.navItemCont:hover > .submenu {
   display: block;
+}
+.navItemCont2 {
+  display: list-item;
 }
